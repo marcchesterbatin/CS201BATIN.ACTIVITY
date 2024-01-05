@@ -8,7 +8,7 @@ console.log( children);
 
 // includes
 
-let = " Hello world, welcome to the universe."
+const text = " Hello world, welcome to the universe."
 let result = text.include("world");
 console.log (result);
 
@@ -20,7 +20,7 @@ console.log (fruits);
 
 // unshift
 
-const array1 = [" 1 ", "2 ", " 3 "];
+const array1 = [ 1, 2 , 3 ];
 console.log ( array1.unshift(4,5));
 console.log(array1);
 
@@ -31,7 +31,7 @@ console.log(fruits);
 
 // shift
 
-const array2 = [" 1 ", " 2 ", " 3 "];
+const array2 = [1 , 2 , 3 ];
 const firstElement = array2.shift();
 console.log(array2);
 console.log( firstElement);
