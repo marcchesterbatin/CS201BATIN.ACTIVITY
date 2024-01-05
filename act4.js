@@ -1,4 +1,4 @@
-let fruit = banana;
+let fruit = prompt ( " Type a fruit");
 
 switch (fruit) {
     case "Banana":
