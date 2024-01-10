@@ -7,6 +7,6 @@ console.log  (firstFavNum * secondFavNum );
 console.log  (firstFavNum / secondFavNum );
 console.log  (firstFavNum % secondFavNum );
 
-let power = Math.pow ( firstFavNum);
+let power = Math.pow ( firstFavNum, 2);
 
-console.log ( firstFavNum )
+console.log ( power );
