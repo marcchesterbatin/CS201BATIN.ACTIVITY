@@ -5,5 +5,5 @@ if (password.length >= 8 || password.includes( " p@ssword")){
     console.log (" Valid password");
 }
 else{
-    cosole.log ( " invalid password");
+    console.log ( " invalid password");
 }
